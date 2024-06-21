@@ -5505,7 +5505,7 @@ def model_builder(data):
 
     return model, scaler
 
-model , scaler = model_builder(df)
+model , scaler = model_builder(df_c)
 
 
 navbar = dbc.NavbarSimple(
