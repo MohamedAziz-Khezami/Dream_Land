@@ -22,8 +22,8 @@ server = app.server
 
 app.title = "Dream Land"
 
-df = pd.read_csv("/Users/mak/Desktop/Code_With_Me/DreamLand/data.csv")
-df_c = pd.read_csv("/Users/mak/Desktop/Code_With_Me/DreamLand/cleaned_data.csv")
+df = pd.read_csv("DreamLand/data.csv")
+df_c = pd.read_csv("DreamLand/cleaned_data.csv")
 df_a = df_c.dropna()
 correlation_matrix = np.corrcoef(df_c.iloc[:, 3:].values.T)
 
