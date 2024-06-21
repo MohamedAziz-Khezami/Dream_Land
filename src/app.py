@@ -9,6 +9,10 @@ import plotly.graph_objects as go
 import numpy as np
 from scipy.stats import pearsonr
 import pickle
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler
+from sklearn.linear_model import LinearRegression
+
 
 app = dash.Dash(
     __name__,
@@ -5481,8 +5485,27 @@ df_a = df_c.dropna()
 correlation_matrix = np.corrcoef(df_c.iloc[:, 3:].values.T)
 
 
-model = pickle.load(open("src/model.pkl", "rb"))
-scaler = pickle.load(open("src/scaler.pkl", "rb"))
+def model_builder(data):
+    Y = data["GDP"].values
+    X = data.loc[:, ["FDI","inflation","literacy_rate" ,"CO2" ,"Number of Internet users" , "Labor force" ,"female_of_total_pop_mainDF"   ,"ict_development_index" , "energy_production" ,"exchange_rate"]].values
+    
+
+    # Split the data into training and test sets
+    X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.2, random_state=42)
+
+    # Normalize the data
+    scaler = StandardScaler()
+    X_train_scaled = scaler.fit_transform(X_train)
+    X_test_scaled = scaler.transform(X_test)
+
+    # Create and train the model
+    model = LinearRegression()
+    model.fit(X_train_scaled, y_train)
+
+
+    return model, scaler
+
+model , scaler = model_builder(df)
 
 
 navbar = dbc.NavbarSimple(
