@@ -5482,7 +5482,7 @@ data = {
 df = pd.DataFrame(data)
 df_c = pd.DataFrame(cleaned)
 df_a = df_c.dropna()
-correlation_matrix = np.corrcoef(df_c.iloc[:, 3:].values.T)
+correlation_matrix = np.corrcoef(df_c.iloc[:, 2:].values.T)
 
 
 def model_builder(data):
@@ -5724,8 +5724,8 @@ app.layout = html.Div(
                 dcc.Graph(
                     figure=px.imshow(
                         correlation_matrix,
-                        x=list(df_c.columns[3:]),  # Set column names as x-axis labels
-                        y=list(df_c.columns[3:]),  # Set column names as y-axis labels
+                        x=list(df_c.columns[2:]),  # Set column names as x-axis labels
+                        y=list(df_c.columns[2:]),  # Set column names as y-axis labels
                         color_continuous_scale="Reds",  # Set color scale
                     ),
                     config={"displayModeBar": False},
