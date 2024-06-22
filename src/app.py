@@ -5479,7 +5479,7 @@ data = {
   }
 }
 
-df = pd.DataFrame(data)
+df = pd.read_csv("data.csv")
 df_c = pd.DataFrame(cleaned)
 df_a = df_c.dropna()
 correlation_matrix = np.corrcoef(df_c.iloc[:, 3:].values.T)
