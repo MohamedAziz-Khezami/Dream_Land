@@ -2,8 +2,7 @@
 
 This project aims to predict the GDP of a fictional country with certain resources and values and see what are the most correlated variables with the wealth of a country. Enjoy!
 
-*Link: https://dream-land-13d7.onrender.com/
-*Note: The initial load might take a minute because of the web host.
+Link: https://dream-land-13d7.onrender.com/ (The initial load might take a minute because of the web host).
 
 <img width="1280" alt="Screen Shot 2024-07-05 at 6 30 39 PM" src="https://github.com/MohamedAziz-Khezami/Dream_Land/assets/136236077/dc3d2619-ba0b-43a9-9027-e989db43dcc6">
 
