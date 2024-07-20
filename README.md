@@ -18,6 +18,7 @@ The project uses the following parameters to predict the GDP:
 The main libraries used in this project:
 
 - `dash`: an open-source framework for building data visualization interfaces. Released in 2017 as a Python library
+- `pandas`: a fast, powerful, flexible and easy to use open source data analysis and manipulation tool.
 - `geopandas`: an open source project to make working with geospatial data in python easier.
 - `numpy`: a Python library adding support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays.
 - `plotly`: an open-source module of Python that is used for data visualization and supports various graphs like line charts, scatter plots, bar charts, histograms, area plots, etc.
