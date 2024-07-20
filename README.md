@@ -30,6 +30,12 @@ You can check the live demo via this link: https://dream-land-13d7.onrender.com/
 ![ScreenRecording2024-07-20at7 39 23PM-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/c3557b5e-89b2-4a7e-87e4-73c41a8c51be)
 
 
+## Deployment
+
+The project is deployed on `Render`; A free web host.
+You can check it on https://render.com/
+
+
 ## Features
 <img width="1280" alt="Screen Shot 2024-07-05 at 6 30 39 PM" src="https://github.com/MohamedAziz-Khezami/Dream_Land/assets/136236077/dc3d2619-ba0b-43a9-9027-e989db43dcc6">
 
