@@ -13,7 +13,7 @@ The project took into used the following parameters to predict the GDP:
 - Energy production 
 - Exchange rate
 
-## Used Libraries:
+## Used Libraries
 
 The main libraries used in this project:
 
@@ -23,10 +23,14 @@ The main libraries used in this project:
 - `plotly`: an open-source module of Python that is used for data visualization and supports various graphs like line charts, scatter plots, bar charts, histograms, area plots, etc.
 - `scikit_learn`: scikit-learn is a free and open-source machine learning library for the Python programming language.
 
-## Demo:
+## Demo
 
 You can check the live demo via this link: https://dream-land-13d7.onrender.com/ (The initial load might take a minute because of the web host).
 
+
+![ScreenRecording2024-07-20at7 39 23PM-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/c3557b5e-89b2-4a7e-87e4-73c41a8c51be)
+
+## Features
 <img width="1280" alt="Screen Shot 2024-07-05 at 6 30 39 PM" src="https://github.com/MohamedAziz-Khezami/Dream_Land/assets/136236077/dc3d2619-ba0b-43a9-9027-e989db43dcc6">
 
 <img width="1280" alt="Screen Shot 2024-07-05 at 6 31 22 PM" src="https://github.com/MohamedAziz-Khezami/Dream_Land/assets/136236077/5adb3baf-fa05-4838-a4b0-9c860b802a58">
@@ -36,6 +40,13 @@ You can check the live demo via this link: https://dream-land-13d7.onrender.com/
 <img width="1279" alt="Screen Shot 2024-07-20 at 7 48 47 PM" src="https://github.com/user-attachments/assets/b4e07195-87b3-4cab-8957-b6d6a16898ca">
 
 <img width="1280" alt="Screen Shot 2024-07-05 at 6 31 56 PM" src="https://github.com/MohamedAziz-Khezami/Dream_Land/assets/136236077/bcf573ab-2ea7-4b6e-a9ca-b0a4da726818">
+
+
+## Feedback
+
+If you have any feedback, please reach out to us at fake@fake.com
+
+
 
 
 
