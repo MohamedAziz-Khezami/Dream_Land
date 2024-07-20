@@ -25,8 +25,7 @@ The main libraries used in this project:
 
 ## Demo:
 
-You can check the live demo via this link:
-Link: https://dream-land-13d7.onrender.com/ (The initial load might take a minute because of the web host).
+You can check the live demo via this link: https://dream-land-13d7.onrender.com/ (The initial load might take a minute because of the web host).
 
 <img width="1280" alt="Screen Shot 2024-07-05 at 6 30 39 PM" src="https://github.com/MohamedAziz-Khezami/Dream_Land/assets/136236077/dc3d2619-ba0b-43a9-9027-e989db43dcc6">
 
