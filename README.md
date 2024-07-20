@@ -1,4 +1,4 @@
-# Dream Land
+# 🌍Dream Land
 
 This project aims to predict the GDP of a fictional country with certain resources and values and see what are the most correlated variables with the wealth of a country.
 The project took into used the following parameters to predict the GDP:
